@@ -1,0 +1,20 @@
+{
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 1000,
+  "files.autoSaveDelay": 2500,
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.detectSubmodules": true,
+  "git.detectSubmodulesLimit": 42,
+  "git.inputValidation": "off",
+  "scm.alwaysShowProviders": true,
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "workbench.editor.tabSizing": "fit",
+  "workbench.startupEditor": "newUntitledFile"
+}

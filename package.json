@@ -1,0 +1,67 @@
+{
+  "homepage": "http://tanisha-verma.github.io/lottie-web-react",
+  "name": "lottie-web-react",
+  "description": "React wrapper for lottie-web",
+  "author": "Tanisha Verma",
+  "license": "UNLICENSED",
+  "private": false,
+  "lint-staged": {
+    "src/**/*.{js, jsx}": [
+      "eslint",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lottie --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__ && react-scripts build ",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "7.8.4",
+    "@babel/core": "7.8.4",
+    "@babel/plugin-proposal-class-properties": "7.8.3",
+    "@babel/preset-react": "7.8.3",
+    "babel-plugin-import": "1.13.0",
+    "gh-pages": "2.2.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-scripts": "3.3.0"
+  },
+  "peerDependencies": {
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "dependencies": {
+    "lottie-web": "5.6.3"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "lottie-web-react"
+  },
+  "version": "1.0.0",
+  "keywords": [
+    "React",
+    "wrapper",
+    "for",
+    "lottie-web"
+  ]
+}
