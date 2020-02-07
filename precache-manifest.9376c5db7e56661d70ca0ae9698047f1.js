@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eea6688984c684c62e07db8bc87d21ef",
+    "revision": "f1c9df4038dfe94920eefad3d75dd631",
     "url": "/lottie-web-react/index.html"
   },
   {
-    "revision": "f317d5ad828294b22064",
+    "revision": "e9260bc4f9ef48116346",
     "url": "/lottie-web-react/static/css/main.9d20d2b0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lottie-web-react/static/js/2.a2694126.chunk.js.LICENSE"
   },
   {
-    "revision": "f317d5ad828294b22064",
-    "url": "/lottie-web-react/static/js/main.ad033381.chunk.js"
+    "revision": "e9260bc4f9ef48116346",
+    "url": "/lottie-web-react/static/js/main.e8f632d3.chunk.js"
   },
   {
     "revision": "06977a1798ebd68d50bb",
