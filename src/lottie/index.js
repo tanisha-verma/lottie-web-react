@@ -1,9 +1,7 @@
 import React, { useRef, useEffect, useState, useCallback, useReducer } from 'react'
 import PropTypes from 'prop-types'
-import uuid4 from 'uuid/v4'
 import lottie from 'lottie-web'
 import * as lottieConstants from './lottieConstants'
-let animationData = require('./exampleAnimation.json')
 
 const propTypes = {
   id: PropTypes.string,
@@ -171,7 +169,7 @@ const defaultOptions = {
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  animationData: animationData, // the animation data
+  path: lottieConstants.examplePath, // the animation data
   rendererSettings: {
     preserveAspectRatio: 'xMinYMin slice', // Supports the same options as the svg element's preserveAspectRatio property
   }
@@ -179,7 +177,7 @@ const defaultOptions = {
 
 Lottie.propTypes = propTypes
 Lottie.defaultProps = {
-  id: uuid4(),
+  id: 'lottie-web-react',
   options: defaultOptions,
   eventListeners: [],
   playingState: lottieConstants.STOP,

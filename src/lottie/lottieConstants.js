@@ -7,6 +7,7 @@ export const PAUSE = 'pause'
 export const STOP = 'stop'
 export const directionForward = 1
 export const directionReverse = -1
+export const examplePath='https://assets6.lottiefiles.com/datafiles/zc3XRzudyWE36ZBJr7PIkkqq0PFIrIBgp4ojqShI/newAnimation.json'
 
 export const checkObjectsEqualByValue = (object1, object2) => {
   //Find all keys of object1 since comparing object with object1 is enough to validate equality
