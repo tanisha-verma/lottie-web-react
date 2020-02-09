@@ -1,5 +1,7 @@
 ## Lottie web for React
 
+Blog : https://medium.com/@tanisha_verma/lottie-and-react-hooks-1adb4713446b
+
 Lottie-web-react is a wrapper for lottie-web  using React hooks.
 For more information on lottie-web visit [https://github.com/airbnb/lottie-web](https://github.com/airbnb/lottie-web)
 
