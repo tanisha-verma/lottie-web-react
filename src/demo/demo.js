@@ -14,6 +14,9 @@ function Demo() {
   const [speed, setSpeed] = useState(1)
   const [direction, setDirection] = useState(1)
 
+  //Segment example variables
+  const [activeSegment, setActiveSegment] = useState([0, 10])
+
   return (
     <div className='demo'>
       <h1>Lottie animations</h1>
@@ -72,7 +75,7 @@ function Demo() {
           />
         </div>
       </div>
-      <h2 font='medium'>Easy to add event listeners</h2>
+      <h2 >Easy to add event listeners</h2>
       <div className='events-example'>
         <h3 className='events-counter'>Loop count : {loopCounter}</h3>
         <Lottie
@@ -83,6 +86,38 @@ function Demo() {
             eventName: 'loopComplete',
             callback: () => { setLoopCounter(loopCounter + 1) }
           }]}
+        />
+      </div>
+      <h2 >Playing segments</h2>
+      <h3>Current Segment : {activeSegment[1]}</h3>
+      <div className='segments-example'>
+        <Lottie
+          options={{
+            renderer: demoConstants.renderer,
+            loop: false,
+            autoplay: true,
+            path: 'https://raw.githubusercontent.com/thesvbd/Lottie-examples/master/assets/animations/skip-forward.json',
+            rendererSettings: demoConstants.rendererSettings
+          }}
+          playSegments={{
+            segments: activeSegment,
+            forceFlag: true
+          }}
+          playingState={'play'}
+          id='segments-example'
+          eventListeners={[
+            {
+              eventName: 'complete', callback: () => {
+                if (activeSegment[1] < 60) {
+                  setActiveSegment([0, activeSegment[1] + 10])
+                }
+                else {
+                  setActiveSegment([0, 10])
+                }
+
+              }
+            }
+          ]}
         />
       </div>
     </div>

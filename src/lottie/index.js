@@ -152,7 +152,7 @@ function Lottie(props) {
   //Play specific segments
   useEffect(() => {
     if (lottieInstance && playSegments && playSegments.segments && playSegments.forceFlag) {
-      lottieInstance.goToAndPlay(playSegments.segments, playSegments.forceFlag)
+      lottieInstance.playSegments(playSegments.segments, playSegments.forceFlag)
     }
   }, [playSegments, lottieInstance]
   )
