@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/lottie-web-react/static/css/main.9d20d2b0.chunk.css",
-    "main.js": "/lottie-web-react/static/js/main.99a8b9d6.chunk.js",
-    "main.js.map": "/lottie-web-react/static/js/main.99a8b9d6.chunk.js.map",
+    "main.css": "/lottie-web-react/static/css/main.5b5fcd87.chunk.css",
+    "main.js": "/lottie-web-react/static/js/main.09796e8a.chunk.js",
+    "main.js.map": "/lottie-web-react/static/js/main.09796e8a.chunk.js.map",
     "runtime-main.js": "/lottie-web-react/static/js/runtime-main.7234ea9c.js",
     "runtime-main.js.map": "/lottie-web-react/static/js/runtime-main.7234ea9c.js.map",
     "static/js/2.171685e1.chunk.js": "/lottie-web-react/static/js/2.171685e1.chunk.js",
     "static/js/2.171685e1.chunk.js.map": "/lottie-web-react/static/js/2.171685e1.chunk.js.map",
     "index.html": "/lottie-web-react/index.html",
-    "precache-manifest.ad21bc508df00854182f017963c29d24.js": "/lottie-web-react/precache-manifest.ad21bc508df00854182f017963c29d24.js",
+    "precache-manifest.11decb5af70c113bd949dd924095c49f.js": "/lottie-web-react/precache-manifest.11decb5af70c113bd949dd924095c49f.js",
     "service-worker.js": "/lottie-web-react/service-worker.js",
-    "static/css/main.9d20d2b0.chunk.css.map": "/lottie-web-react/static/css/main.9d20d2b0.chunk.css.map",
+    "static/css/main.5b5fcd87.chunk.css.map": "/lottie-web-react/static/css/main.5b5fcd87.chunk.css.map",
     "static/js/2.171685e1.chunk.js.LICENSE": "/lottie-web-react/static/js/2.171685e1.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.7234ea9c.js",
     "static/js/2.171685e1.chunk.js",
-    "static/css/main.9d20d2b0.chunk.css",
-    "static/js/main.99a8b9d6.chunk.js"
+    "static/css/main.5b5fcd87.chunk.css",
+    "static/js/main.09796e8a.chunk.js"
   ]
 }
