@@ -11,9 +11,6 @@ node_modules
 coverage
 
 # misc
-src/**/*.css
-src/styles/App.css
-src/styles/index.css
 .env.local
 .env.development.local
 .env.test.local
